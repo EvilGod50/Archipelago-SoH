@@ -527,7 +527,7 @@ class ShuffleCrates(Choice):
     Dungeons - Only shuffle crates that are within dungeons.
     Overworld - Only shuffle crates that are outside of dungeons.
     All Crates - Shuffle all crates.
-    Four crates at Gerudo Valley Fortress Side and one crate at Gerudo Fortress Archery North Target are only shuffled with No Logic enabled all 5 of these crates are Child only.
+    Four crates in Gerudo Valley (Fortress Side) and one crate in Gerudo Fortress (HBA North Target) are only shuffled with No Logic enabled. All 5 of these crates are Child only.
     """
     display_name = "Shuffle Crates"
     option_off = 0
