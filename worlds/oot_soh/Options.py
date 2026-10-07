@@ -301,7 +301,7 @@ class ShuffleKokiriSword(Toggle):
 class ShuffleMasterSword(Toggle):
     """
     Shuffles the Master Sword into the item pool.
-    If you haven't found the Master Sword before facing Ganon, you won't receive it during the fight, the Master Sword is required to beat Ganon.
+    If you haven't found the Master Sword before facing Ganon, you won't receive it during the fight, as the Master Sword is required to beat Ganon.
     """
     display_name = "Shuffle Master Sword"
 
