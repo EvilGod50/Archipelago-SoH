@@ -1236,7 +1236,7 @@ class ChickenHint(Toggle):
 
 class MalonHint(Toggle):
     """
-    Talking to Malon as adult will tell you the item on "Link's Cow", the cow you win from beating her time on the Lon Lon Obstacle Course.
+    Talking to Malon as adult will tell you the item on "Link's Cow", the cow you win from beating her time on the Lon Lon Ranch Obstacle Course.
     """
     display_name = "Malon Hint"
     default = 1
