@@ -798,7 +798,7 @@ class SmallKeyShuffle(Choice):
     """
     Start With - You will start with all Small Keys for all dungeons.
     Vanilla - Small Keys will appear in their vanilla locations. Vanilla Small Keys cannot become Key Rings.
-    Own Dungeon - Small Keys can only appear in their respective dungeon. If this setting is enabled the door to the Fire Temple Boss Key chest will be unlocked.
+    Own Dungeon - Small Keys can only appear in their respective dungeon. If this setting is enabled and Fire Temple is not a Master Quest dungeon, the door to the Boss Key chest will be unlocked.
     Any Dungeon - Small Keys can only appear inside any dungeon.
     Overworld - Small Keys can only appear outside of dungeons.
     Anywhere - Small Keys can appear anywhere in the world.
