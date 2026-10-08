@@ -628,7 +628,7 @@ class ShuffleStoneFairies(Toggle):
 
 class ShuffleBeanFairies(Toggle):
     """
-    Shuffle fairies from Magic Bean locations when playing Song of Storms near them after planting the Magic Bean.
+    Shuffle fairies that appear from Magic Bean locations when you play Song of Storms near them after planting a Magic Bean.
     """
     display_name = "Shuffle Bean Fairies"
 
