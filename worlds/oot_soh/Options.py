@@ -552,7 +552,7 @@ class ShuffleMerchants(Choice):
     """
     This setting governs if the Bean Salesman, Medigoron, Granny and the Carpet Salesman sell a random item.
     Beans Merchant Only - Only the Bean Salesman will have a check, and a pack of Magic Beans will be added to the item pool.
-    All But Beans - Medigoron, Granny and the Carpet Salesman will have checks, the Bean Salesman will sell Magic Beans as normal.
+    All But Beans - Medigoron, Granny and the Carpet Salesman will have checks, and the Bean Salesman will sell Magic Beans as normal.
     All - Apply both effects.
     """
     display_name = "Shuffle Merchants"
