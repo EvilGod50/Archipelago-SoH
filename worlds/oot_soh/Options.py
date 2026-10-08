@@ -491,7 +491,7 @@ class ShuffleScrubsMaximumPrice(Range):
 
 class ShuffleBeehives(Toggle):
     """
-    Shuffle all beehives found in grottos.
+    Shuffle all beehives.
     """
     display_name = "Shuffle Beehives"
 
@@ -797,7 +797,7 @@ class GanonsCastleBossKeySkullTokensRequired(Range):
 class SmallKeyShuffle(Choice):
     """
     Start With - You will start with all Small Keys for all dungeons.
-    Vanilla - Small Keys will appear in their vanilla locations. Vanilla Small Keys cannot become Key Rings.
+    Vanilla - Small Keys will appear in their vanilla locations. Vanilla Small Keys cannot become Key Rings. You start with 3 keys in Spirit Temple MQ because the vanilla key layout is not beatable in logic.
     Own Dungeon - Small Keys can only appear in their respective dungeon. If this setting is enabled and Fire Temple is not a Master Quest dungeon, the door to the Boss Key chest will be unlocked.
     Any Dungeon - Small Keys can only appear inside any dungeon.
     Overworld - Small Keys can only appear outside of dungeons.
@@ -811,13 +811,10 @@ class SmallKeyShuffle(Choice):
     option_overworld = 4
     option_anywhere = 5
     default = 2
-# The 2 below lines are from the above Description, but they relate to Master Quest which is irrlevant at this time
-# Vanilla - Small Keys will appear in their vanilla locations. Vanilla Small keys cannot become Key Rings. You start with 3 keys in Spirit Temple MQ because the vanilla key layout is not beatable in logic.
-# Own Dungeon - Small Keys can only appear in their respective dungeon. If this setting is enabled and Fire Temple is not a Master Quest dungeon, the door to the Boss Key chest will be unlocked.
 
 class GerudoFortressKeyShuffle(Choice):
     """
-    Vanilla - Thieves' Hideout Keys will appear in their vanilla locations. Vanilla Theieves' Hideout Small Keys cannot become Key Rings.
+    Vanilla - Thieves' Hideout Keys will appear in their vanilla locations. Vanilla Thieves' Hideout Small Keys cannot become Key Rings.
     Any Dungeon - Thieves' Hideout Keys can only appear inside any dungeon.
     Overworld - Thieves' Hideout Keys can only appear outside of dungeons.
     Anywhere - Thieves' Hideout Keys can appear anywhere in the world.
@@ -1061,7 +1058,7 @@ class StartingAge(Choice):
     Decide whether to start as child Link or adult Link.
     Child Link starts in Link's House in Kokiri Forest.
     Adult Link starts in the Temple of Time.
-    CAUTION: When "Closed Forest" is set to "On" or "Door of Time" is set to closed with either "Shuffle Dungeon Rewards" set to "Off" or "Shuffle Ocarinas" set to "Off", this option will be forced to child.
+    CAUTION: When "Closed Forest" is set to "On" or "Door of Time" is set to closed with either "Shuffle Dungeon Rewards" set to "Off" or "Shuffle Ocarinas" set to "Off," this option will be forced to child.
     """
     display_name = "Starting Age"
     option_child = 0
@@ -1370,7 +1367,7 @@ class StartWithLinksPocket(Choice):
     Advancement - Starts you with a random major item.
     Anything - Starts you with a random item.
     Nothing - Starts you with nothing in Link's pocket.
-    CAUTION: When "Shuffle Dungeon Rewards" is set to "Off" or "End of Dungeons", this option will be forced to "Dungeon Reward".
+    CAUTION: When "Shuffle Dungeon Rewards" is set to "Off" or "End of Dungeons," this option will be forced to "Dungeon Reward."
     """
     display_name = "Link's Pocket"
     option_dungeon_reward = 0
