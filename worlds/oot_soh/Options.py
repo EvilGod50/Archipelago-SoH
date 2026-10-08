@@ -1140,7 +1140,7 @@ class GossipStoneHints(Choice):
 class ToTAltarHint(Toggle):
     """
     Reading the Temple of Time altar as child will tell you the locations of the Spiritual Stones.
-    Reading the Temple of Time altar as adult will tell you the locations of the Medallions, conditions for building the Rainbow Bridge and getting the Boss Key for Ganon's Castle.
+    Reading the Temple of Time altar as adult will tell you the locations of the medallions, as well as the conditions for building the Rainbow Bridge and getting the Boss Key for Ganon's Castle.
     """
     display_name = "ToT Altar Hint"
     default = 1
