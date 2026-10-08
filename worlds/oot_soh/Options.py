@@ -543,7 +543,7 @@ class ShuffleTrees(Toggle):
     Trees will have a special appearance when carrying randomized items.
 
     Some trees are dependent on Link's age, such as some trees in Hyrule Field.
-    Two trees at Hyrule Castle are only shuffled with No Logic enabled.
+    Two trees outside of Hyrule Castle are only shuffled with No Logic enabled.
     """
     display_name = "Shuffle Trees"
 
