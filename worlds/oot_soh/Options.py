@@ -635,7 +635,7 @@ class ShuffleBeanFairies(Toggle):
 
 class ShuffleSongFairies(Toggle):
     """
-    Shuffle fairy spots. These are spots where a big fairy is revealed by a song, each spot will react to different songs.
+    Shuffle fairy spots. These are arbitrary spots where a big fairy is revealed by playing a specific song, such as when you play Sun's Song by the flag in Death Mountain Trail.
 
     This does not include the Gossip Stones and Magic Bean locations.
     """
