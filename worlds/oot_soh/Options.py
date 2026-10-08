@@ -1044,7 +1044,7 @@ class InfiniteUpgrades(Choice):
 class SkeletonKey(Toggle):
     """
     Adds a new item called the Skeleton Key, which unlocks every door locked by a small key or overworld key. It does not open boss doors.
-    This item is considered by logic and may be required to access certain areas of Dungeons or Overworld Door Locks in place of the usual Keys.
+    This item will be considered in the logic and may be required to open locked doors in dungeons or in the overworld.
     """
     display_name = "Skeleton Key"
 
