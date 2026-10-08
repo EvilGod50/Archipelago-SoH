@@ -620,7 +620,7 @@ class ShuffleFountainFairies(Toggle):
 
 class ShuffleStoneFairies(Toggle):
     """
-    Shuffle the fairies that appear from Gossip Stones when you play certain songs near them. There are 2 locations for each Gossip Stone: one for playing Zelda's Lullaby, Epona's Song, or Song of Time, and one for playing Song of Storms.
+    Shuffle the fairies that appear from Gossip Stones when you play certain songs near them. There are 2 locations for each Gossip Stone: one for playing Zelda's Lullaby, Epona's Song, or Song of Time (Sun's Song can also be used in areas that dont trigger a reload), and one for playing Song of Storms.
     If you took out the Ocarina without playing a song you may have to reload the area to get the fairys to react to the song.
     """
     display_name = "Shuffle Gossip Stone Fairies"
@@ -637,7 +637,7 @@ class ShuffleSongFairies(Toggle):
     """
     Shuffle fairy spots. These are arbitrary spots where a big fairy is revealed by playing a specific song, such as when you play Sun's Song by the flag in Death Mountain Trail.
 
-    This does not include the Gossip Stones and Magic Bean locations.
+    This does not include fairies from Gossip Stone or Magic Bean locations.
     """
     display_name = "Shuffle Fairy Spots"
 
